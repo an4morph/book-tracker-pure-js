@@ -1,0 +1,64 @@
+.book {
+  background-color: #fff;
+  border-radius: 10px;
+  width: calc(100% / 3 - (60px / 3));
+  margin-right: 30px;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.book:nth-child(3n) {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .book {
+    width: calc(100% / 2 - (30px / 2));
+    margin-right: 30px;
+  }
+  .book:nth-child(3n) {
+    margin-right: inherit;
+  }
+  .book:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .book {
+    width: 100%;
+    margin-right: 30px;
+    margin-right: 0;
+  }
+}
+
+.book .like-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.book .delete-btn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.book h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  width: calc(100% - 50px);
+  word-break: break-all;
+}
+
+.book p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.detail-link {
+  font-size: 18px;
+}

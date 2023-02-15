@@ -1,0 +1,16 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.title h1 {
+  font-size: 36px;
+}
+
+main.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
