@@ -5,7 +5,7 @@ const renderBookItem = (data) => {
   const container = createEl({ tag: 'div', className: 'book' })
   const bookName = createEl({ tag: 'h2', text: data.name })
   const bookAuthor = createEl({ tag: 'p', text: data.author })
-  const detailLink = createEl({ tag: 'a', className: 'detail-link', href: '/book.html', text: 'Подробнее...' })
+  const detailLink = createEl({ tag: 'a', className: 'detail-link', href: '/detail.html', text: 'Подробнее...' })
   const likeBtn = createEl({ tag: 'button', className: 'like-btn icon-btn', innerHTML: likeSvg })
   const deleteBtn = createEl({ tag: 'button', className: 'delete-btn icon-btn', innerHTML: deleteSvg })
   container.append(bookName, bookAuthor, detailLink, likeBtn, deleteBtn)
@@ -13,5 +13,5 @@ const renderBookItem = (data) => {
 }
 
 console.log('a')
-const book = renderBookItem({ name: 'aaaa', author: 'fdsfdsf' })
+const book = renderBookItem({ name: 'Пример книги', author: 'Автор' })
 document.querySelector('main').append(book)

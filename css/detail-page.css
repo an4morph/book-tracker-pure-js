@@ -30,6 +30,12 @@
   right: 30px;
 }
 
+.book-detail .edit-btn {
+  position: absolute;
+  top: 20px;
+  right: 130px;
+}
+
 .book-detail .delete-btn {
   position: absolute;
   top: 20px;

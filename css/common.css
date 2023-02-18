@@ -24,7 +24,7 @@ button:focus {
 }
 
 .primary-btn {
-  background-color: #1bc9a7;
+  background-color: #17c7a4;
   color: #fff;
   border: none;
   font-size: 16px;
@@ -52,11 +52,20 @@ button:focus {
   align-items: center;
 }
 
-.icon-btn:hover {
+.icon-text-btn {
+  height: 40px;
+  border-radius: 12px;
+  background-color: #EDEDED;
+  border: none;
+  padding: 0 20px;
+}
+
+
+.icon-btn:hover, .icon-text-btn:hover {
   background-color: #dfdfdf;
 }
 
-.icon-btn:active {
+.icon-btn:active, .icon-text-btn:active {
   transform: scale(0.96);
 }
 

@@ -1,0 +1,27 @@
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.form-item {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.form-item label {
+  font-size: 16px;
+}
+
+.form-item input {
+  font-size: 20px;
+  padding: 6px 12px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  width: 100%;
+}
+
+form button {
+  width: 100%;
+  margin-top: 40px;
+}
